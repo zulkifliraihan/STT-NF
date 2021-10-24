@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 3.1 - Zulkifli Raihan</title>
+</head>
+<body style="margin : 0;padding : 0;font-family:sans-serif; height: 100%;">
+    <main style="padding: 10px 20px;">
+        <div>
+            <b>
+                <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+            </b>
+            <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+        </div>
+        <div>
+            <p>Your Information</p>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="telp">Telephone Number:</label>
+                <input type="tel" id="telp" name="telp">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="instructions">Delivery Instructions:</label>
+                <br>
+                <textarea name="instructions" id="instructions" maxlength="400" cols="30" rows="3" placeholder="No more than 400 characters long"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>
+                <b>
+                    Design Your Dream Pizza
+                </b>
+            </p>
+            <p>
+                Pizza specs
+            </p>
+        </div>
+        <hr>
+        <div style="margin-top: 20px;">
+            <p>
+                Crust (Choose one):
+            </p>
+            <div style="padding-left: 15px;">
+                <div>
+                    <input type="radio" name="crust" id="crust" value="Classic white">
+                    <label for="crust">Classic white</label>
+                </div>
+                <div style="margin-top: 5px;">
+                    <input type="radio" name="crust" id="crust" value="Multigrain">
+                    <label for="crust">Multigrain</label>
+                </div>
+                <div style="margin-top: 5px;">
+                    <input type="radio" name="crust" id="crust" value="Cheese-stuffed crust">
+                    <label for="crust">Cheese-stuffed crust</label>
+                </div>
+                <div style="margin-top: 5px;">
+                    <input type="radio" name="crust" id="crust" value="Gluten-free">
+                    <label for="crust">Gluten-free</label>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Toppings (Choose as many as you want):
+                </p>
+                <div style="padding-left: 15px;">
+                    <div>
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Red Sauce">
+                        <label for="toppings">Red Sauce</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="White Sauce">
+                        <label for="toppings">White Sauce</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Mozzarella Chese">
+                        <label for="toppings">Mozzarella Chese</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Pepperoni">
+                        <label for="toppings">Pepperoni</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Mushrooms">
+                        <label for="toppings">Mushrooms</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Peppers">
+                        <label for="toppings">Peppers</label>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <input type="checkbox" name="toppings[]" id="toppings" value="Anchovies">
+                        <label for="toppings">Anchovies</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>Number</p>
+            <div>
+                <label for="order">How many pizzas</label>
+                <select name="order" id="order">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+        </div>
+        <div style="margin-top: 15px;">
+            <button style="background-color: white; border-radius: 5px;" type="submit">Bring me a pizza!</button>
+            <button style="background-color: white; border-radius: 5px;" type="reset">Reset</button>
+        </div>
+    </main>
+</body>
+</html>
