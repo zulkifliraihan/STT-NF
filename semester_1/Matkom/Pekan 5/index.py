@@ -1,5 +1,5 @@
 def soal_3() :
-    temp = 0
+    temp = 1
     for i in range(4, 9) :
         temp *= i - 3
 
