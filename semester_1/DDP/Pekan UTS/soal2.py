@@ -4,5 +4,5 @@ daftar_pegawai = [
 ]
 
 print("|","Nama","|","Gaji","  ","|")
-print("|",daftar_pegawai[0]["nama"],"|",daftar_pegawai[0]["gaji"],"|")
-print("|",daftar_pegawai[1]["nama"],"|",daftar_pegawai[1]["gaji"],"|")
+for i in range(len(daftar_pegawai)):
+    print("|",daftar_pegawai[i]["nama"],"|",daftar_pegawai[i]["gaji"],"|")
