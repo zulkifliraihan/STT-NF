@@ -25,7 +25,7 @@ def soal_1() :
     jutol = gapok + tukel + tunak
     
     print(f'''
-Detail Gaji Dian : 
+Detail Gaji {name} : 
 Gaji Pokok    : {gapok}
 Tunj Keluarga : {tukel}
 Tunj Anak     : {tunak}
