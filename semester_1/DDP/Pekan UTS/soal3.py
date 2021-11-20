@@ -1,20 +1,12 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-      int n, s, i, j;
-      cout << "Masukkan jumlah baris: 7
-      cin >> n;
-      for (i = 1; i <= n; i++)
-      {
-            //for loop to put space
-            for (s = i; s < n; s++)
-                  cout << " ";
-            //for loop for displaying star
-            for (j = 1; j <= i; j++)
-                  cout << "* ";
-            // ending line after each row
-            cout << "\n";
-      }
-      return 0;
-}
+baris = int(input("Jumlah Bintang : "))
+print("." * baris, end="\n")
+x = (baris // 2) - 1
+y = 2
+while x != 0:
+    while y <= (baris - 2):
+        print("." * x, end="")
+        print("*" * y, end="")
+        print("." * x, end="\n")
+        x = x - 1
+        y = y + 2
+print("*" * baris)
