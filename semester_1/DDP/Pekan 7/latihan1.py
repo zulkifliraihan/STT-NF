@@ -49,7 +49,6 @@ def soal_4() :
         # early += 1
         # print(i)
         
-# soal_1()
-# soal_2()
-# soal_3()
-soal_4()
+soal_1()
+soal_2()
+soal_3()
