@@ -1,0 +1,22 @@
+Version 1.2
+--------------------------------------------------------------
+August 20 2021  :
+- Added 3 New Demos
+- Minor HTML Corrections
+- Updated Documentation
+etc.
+
+
+Version 1.1
+--------------------------------------------------------------
+August 17 2021  :
+- Fixed the issue with black line on the bottom of the screen on mobile devices
+- Minor HTML Corrections
+- Updated Documentation
+etc.
+
+
+Version 1.0
+--------------------------------------------------------------
+August 17 2021 :
+- Template Release
