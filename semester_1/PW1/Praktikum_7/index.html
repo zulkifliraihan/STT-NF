@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="author" content="Zulkifli Raihan" />
+	<meta name="description" content="Tugas Praktikum 7" />
+	<meta name="keywords"
+		content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- SITE TITLE -->
+	<title>Tugas Praktikum 7 - Zulkifli Raihan</title>
+
+	<!-- FAVICON AND TOUCH ICONS -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+	<link rel="icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
+
+	<!-- GOOGLE FONTS -->
+	<link href="assets/https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+		rel="stylesheet">
+
+	<!-- BOOTSTRAP CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- FONT ICONS -->
+	<link href="assets/css/flaticon.css" rel="stylesheet">
+
+	<!-- PLUGINS STYLESHEET -->
+	<link href="assets/css/menu.css" rel="stylesheet">
+	<link id="effect" href="assets/css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+
+	<!-- ON SCROLL ANIMATION -->
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<!-- TEMPLATE CSS -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- RESPONSIVE CSS -->
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- PRELOADER -->
+	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- PAGE CONTENT -->
+	<div id="page" class="page">
+
+		<!-- HEADER -->
+		<header id="header" class="header tra-menu navbar-light">
+			<div class="header-wrapper">
+
+				<!-- MOBILE HEADER -->
+				<div class="wsmobileheader clearfix">
+					<span class="smllogo"><img src="data:image/png;base64,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" alt="mobile-logo" /></span>
+					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+				</div>
+
+				<!-- NAVIGATION MENU -->
+				<div class="wsmainfull menu clearfix">
+					<div class="wsmainwp clearfix">
+
+						<!-- HEADER LOGO -->
+						<div class="desktoplogo">
+							<a href="#hero-3" class="logo-black">
+								<img src="data:image/png;base64,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" alt="header-logo">
+							</a>
+						</div>
+						<div class="desktoplogo">
+							<a href="#hero-3" class="logo-white">
+								<img src="data:image/png;base64,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" alt="header-logo">
+							</a>
+						</div>
+
+						<!-- MAIN MENU -->
+						<nav class="wsmenu clearfix">
+							<ul class="wsmenu-list nav-green-hover">
+
+
+								<!-- MEGAMENU -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#hero-3" class="menu-control">Home</a></li>
+								
+								<!-- Kerjasama -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#brands-1" class="menu-control">Kerja Sama</a></li>
+								
+								<!-- Fasilitas Layanan -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#features-8" class="menu-control">Fasilitas dan Layanan</a></li>
+
+								<!-- Covid -19 -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#content-2" class="menu-control">Covid-19</a></li>
+
+
+								<!-- SIMPLE NAVIGATION LINK -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#content-2a"  class="menu-control">Vaksinasi</a></li>
+
+
+								<!-- SIMPLE NAVIGATION LINK -->
+								<li class="nl-simple" aria-haspopup="true"><a href="#content-3" class="menu-control">Aplikasi</a></li>
+
+
+								<!-- HEADER BUTTON -->
+								<li class="nl-simple" aria-haspopup="true">
+									<a href="#cta-4" class="btn btn-tra-white green-hover last-link menu-control">Let's Started</a>
+								</li>
+
+
+								<!-- HEADER SOCIAL LINKS 													
+									<li class="nl-simple white-color header-socials ico-20 clearfix" aria-haspopup="true">
+										<span><a href="#" class="ico-facebook"><span class="flaticon-facebook"></span></a></span>
+										<span><a href="#" class="ico-twitter"><span class="flaticon-twitter"></span></a></span>
+										<span><a href="#" class="ico-instagram"><span class="flaticon-instagram"></span></a></span>
+										<span><a href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></a></span>	
+									</li> -->
+
+
+							</ul>
+						</nav> <!-- END MAIN MENU -->
+					</div>
+				</div> <!-- END NAVIGATION MENU -->
+			</div> <!-- End header-wrapper -->
+		</header> <!-- END HEADER -->
+
+		<!-- HERO-3 -->
+		<section id="hero-3" class="bg-scroll hero-section division">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+
+
+					<!-- HERO TEXT -->
+					<div class="col-lg-6">
+						<div class="hero-3-txt white-color">
+
+							<!-- Title -->
+							<h2 class="h2-lg wow fadeInUp">Selamat Datang di</h2>
+							<h2 class="h2-lg wow fadeInUp">Rumah Sakit Valve</h2>
+
+							<!-- Text -->
+							<p class="p-xl wow fadeInUp">
+								Rumah Sakit Valve merupakan bagian dari ZuRan Corps 
+								dan didirikan pada tahun 2019 yang diresmikan oleh Presiden RI Joko Widodo 
+								dan CEO sekaligus pendiri ZuRan Corps yaitu Zulkifli Raihan. 
+								Rumah sakit ini merupakan visi dan misi dari ZuRan Corps untuk mendigitalisasikan rumah sakit.
+							</p>
+
+							<!-- Buttons Group -->
+							<div class="btns-group mb-30 wow fadeInUp">
+								<a href="#content-2" class="btn btn-green tra-white-hover mr-15">
+									Reservasi Sekarang
+								</a>
+							</div>
+
+							<!-- Advantages List -->
+							<ul class="advantages clearfix wow fadeInUp">
+								<li class="first-li">
+									<p>Transparan Informasi</p>
+								</li>
+								<li>
+									<p>24 Jam Kontak Support</p>
+								</li>
+								<li class="last-li">
+									<p>Profesional</p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END HERO TEXT -->
+
+
+					<!-- HERO IMAGE -->
+					<div class="col-lg-6">
+						<div class="hero-3-img wow fadeInRight">
+							<img class="img-fluid" src="assets/image/doctors-cuate.svg" alt="hero-image">
+						</div>
+					</div>
+
+
+				</div> <!-- End row -->
+			</div> <!-- End container -->
+
+
+			<!-- WAVE SHAPE BOTTOM -->
+			<div class="wave-shape-bottom">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 195">
+					<path fill="#ffffff" fill-opacity="1" d="M0,192L1440,96L1440,320L0,320Z"></path>
+				</svg>
+			</div>
+
+		</section> <!-- END HERO-3 -->
+
+
+		<!-- BRANDS-1 -->
+		<div id="brands-1" class="wide-100 brands-section division">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+
+						<h3 class="h2-xs">Bekerjasama Dengan </h3>
+
+						<!-- Brands Carousel -->
+						<div class="owl-carousel brands-carousel">
+
+							<!-- Brand Logo Telkom -->
+							<div class="brand-logo">
+								<img class="img-fluid" src="https://www.telkom.co.id/data/image_upload/page/1594108255409_compress_logo%20telkom%20indonesia.png" alt="Telkom Logo" />
+							</div>
+
+							<!-- Brand Logo Google -->
+							<div class="brand-logo" style="padding-top: 20px;">
+								<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Google_logo_%282013-2015%29.svg/1024px-Google_logo_%282013-2015%29.svg.png" alt="Google Logo" />
+							</div>
+
+							<!-- Brand Logo Siloam -->
+							<div class="brand-logo" style="margin-top: -40px;">
+								<img class="img-fluid" src="https://algorit.ma/wp-content/uploads/2019/11/HP-Logo-Siloam-Hospital-01.png" alt="Siloam Logo" />
+							</div>
+
+							<!-- Brand Logo Mitra Keluarga -->
+							<div class="brand-logo">
+								<img class="img-fluid" src="https://elma.mitrakeluarga.com/pluginfile.php/1/theme_klass/logo/1631685715/LOGO%20MITRA%202%20HIGH.png" alt="Mitra Keluarga Logo" />
+							</div>
+
+							<!-- Brand Logo BCA -->
+							<div class="brand-logo" style="padding-top: 20px;">
+								<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/2560px-Bank_Central_Asia.svg.png" alt="BCA Logo" />
+							</div>
+
+							<!-- Brand Logo Allianz -->
+							<div class="brand-logo" style="padding-top: 20px;">
+								<img class="img-fluid" src="https://logos-download.com/wp-content/uploads/2016/05/Allianz_logo_logotype.png" alt="Allianz Logo" />
+							</div>
+
+							<!-- Brand Logo Air Charter Service -->
+							<div class="brand-logo">
+								<img class="img-fluid" src="https://download.logo.wine/logo/Air_Charter_Service/Air_Charter_Service-Logo.wine.png" alt="Air Charter Service Logo" />
+							</div>
+
+							<!-- Brand Logo Rumah Zakat -->
+							<div class="brand-logo" style="padding-top: 10px;">
+								<img class="img-fluid" src="https://rumahzakat.org/wp-content/uploads/2020/11/logo-1.png" alt="Rumah Zakat Logo">
+							</div>
+
+						</div> <!-- End Brands Carousel -->
+
+
+					</div>
+				</div> <!-- End row -->
+			</div> <!-- End container -->
+		</div> <!-- END BRANDS-1 -->
+
+		<!-- FEATURES-8 -->
+		<section id="features-8" class="pb-60 features-section division">
+			<div class="container">
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="section-title title-01 mb-70">
+							<!-- Title -->
+							<h2 class="h2-md">Fasilitas dan Layanan</h2>
+
+							<!-- Text -->
+							<p class="p-xl">
+								Dengan lebih dari 100 Dokter Spesialis dan Sub Spesialis 
+								yang kompeten, kami berupaya untuk memberikan 
+								pelayanan medis yang tepat untuk setiap kebutuhan kesehatan anda.
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- FEATURES-8 WRAPPER -->
+				<div class="fbox-8-wrapper text-center">
+					<div class="row row-cols-1 row-cols-md-3">
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/UGD Room.jpg" alt="feature-icon" />
+								</div>
+
+								<!-- Title -->
+								<h5 class="h5-md">Unit Gawat Darurat</h5>
+							</div>
+						</div>
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/Ruang Bedah.png" alt="feature-icon" />
+								</div>
+								<!-- Title -->
+								<h5 class="h5-md">Unit Bedah</h5>
+							</div>
+						</div>
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/Rawat Jalan.jpg" alt="feature-icon" />
+								</div>
+
+								<!-- Title -->
+								<h5 class="h5-md">Rawat Jalan</h5>
+							</div>
+						</div>
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/Laboratoriumjpg.jpg" alt="feature-icon" />
+								</div>
+
+								<!-- Title -->
+								<h5 class="h5-md">Laboratorium</h5>
+							</div>
+						</div>
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/Intensive Care.jpg" alt="feature-icon" />
+								</div>
+
+								<!-- Title -->
+								<h5 class="h5-md">Intensive Care</h5>
+							</div>
+						</div>
+
+						<!-- FEATURE BOX -->
+						<div class="col">
+							<div class="fbox-8 mb-40 wow fadeInUp">
+								<!-- Image -->
+								<div class="fbox-img bg-whitesmoke-gradient">
+									<img class="img-fluid img-layanan" src="assets/image/Farmasi.jpg" alt="feature-icon" />
+								</div>
+
+								<!-- Title -->
+								<h5 class="h5-md">Farmasi</h5>
+							</div>
+						</div>
+
+					</div> <!-- End row -->
+				</div> <!-- END FEATURES-8 WRAPPER -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END FEATURES-8 -->
+
+		<!-- Section Varian Covid-19 -->
+		<section id="content-2" class="content-2 pb-60 content-section division">
+			<div class="container">
+								<!-- Kawal Corona -->
+				<div class="bottom-row">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-lg-6 order-last order-lg-2">
+							<div class="txt-block slim-column left-column wow fadeInRight">
+
+								<!-- Title -->
+								<h2 class="h2-xs">Kawal Pemantauan Corona Bersama</h2>
+
+								<!-- Text -->
+								<p class="p-lg">
+									Pantau Perkembangan Corona secara Real-time dalam Aplikasi maupun website
+								</p>
+
+							</div>
+						</div> <!-- END TEXT BLOCK -->
+
+
+						<!-- CB WRAPPER -->
+						<div class="col-lg-6 order-first order-lg-2">
+							<div class="cb-wrapper">
+
+								<!-- CB HOLDER -->
+								<div class="cb-holder wow fadeInLeft">
+
+									<!-- CB BOX #1 -->
+									<div class="cb-single-box">
+										<p class="p-lg cb-header">Total Dirawat</p>
+										<h2 class="h2-title-xs statistic-number">
+											<span class="count-element" id="totalRawat">784</span>
+										</h2>
+										<p class="p-md mt-5 ico-10">
+											<span class="green-color">
+											Update hari ini
+										</p>
+									</div>
+
+									<hr class="divider">
+
+									<!-- CB BOX #2 -->
+									<div class="cb-single-box">
+										<ul class="simple-list">
+											<li class="list-item">
+												<p class="p-md" id="totalSembuh">
+													Total Sembuh :
+												</p>
+											</li>
+
+											<li class="list-item">
+												<p class="p-md" id="totalMeninggal">
+													Total Meninggal :
+												</p>
+											</li>
+										</ul>
+									</div>
+
+									<!-- CB BOX #3 -->
+									<div class="cb-single-box cb-box-rounded bg-green white-color mt-25">
+										<h4 class="h4-lg" id="totalConfirm">98.245</h4>
+										<p class="p-lg">Total Terkonfirmasi</p>
+									</div>
+
+								</div> <!-- END CB HOLDER -->
+
+
+								<!-- CB SHAPE -->
+								<div class="cb-shape-1">
+									<img class="img-fluid" src="assets/images/bg-shape-1.png" alt="content-image">
+								</div>
+
+								<!-- CB SHAPE -->
+								<div class="cb-shape-2">
+									<img class="img-fluid" src="assets/images/bg-shape-2.png" alt="content-image">
+								</div>
+
+
+							</div>
+						</div> <!-- END CB WRAPPER -->
+
+
+					</div>
+				</div> <!-- END BOTTOM ROW -->
+
+
+				<div class="row d-flex align-items-center">
+
+					<!-- IMAGE BLOCK -->
+					<div class="col-md-5 col-lg-6">
+						<div class="rel img-block left-column wow fadeInRight">
+							<img class="img-fluid" src="assets/image/swab testjpg.jpg" alt="content-image">
+						</div>
+					</div>
+
+					<!-- TEXT BLOCK -->
+					<div class="col-md-7 col-lg-6">
+						<div class="txt-block right-column wow fadeInLeft">
+
+							<!-- Section ID -->
+							<span class="section-id txt-upcase">Laboratorium</span>
+
+							<!-- Title -->
+							<h2 class="h2-xs">Periksa Varian Covid-19</h2>
+
+							<!-- Text -->
+							<p class="p-lg">
+								Periksakan Varian Covid-19 pada diri anda. 
+								Lakukan Pemeriksaan dengan metode Antigen / Rapid Molecular Test / RT-PCR COVID-19
+							</p>
+						</div>
+					</div> <!-- END TEXT BLOCK -->
+
+
+				</div> <!-- End row -->
+			</div> <!-- End container -->
+		</section> <!-- END CONTENT Varian Covid-19 -->
+
+		<!-- Section Price Test Covid -->
+		<section id="pricing-2" class="bg-whitesmoke wide-60 pricing-section division">
+			<div class="container">
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="section-title title-01 mb-80">
+
+							<!-- Title -->
+							<h2 class="h2-md">Harga Test Varian Covid-19</h2>
+
+							<!-- Text -->
+							<p class="p-xl">
+								Sekarang anda bisa pesan kapanpun dan dimanapun di jam berapapun untuk melakukan Test Covid-19.
+								Pembayaran bisa juga via Aplikasi maupun Website kami
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- PRICING TABLES -->
+				<div class="pricing-2-row pc-25">
+					<div class="row row-cols-1 row-cols-md-3">
+
+
+						<!-- Antigen -->
+						<div class="col d-flex align-items-stretch">
+							<div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+
+								<!-- Plan Price -->
+								<div class="pricing-plan">
+
+									<!-- Plan Title -->
+									<div class="pricing-plan-title">
+										<h5 class="h5-xs">Antigen</h5>
+										<h6 class="h6-sm bg-lightgrey">Save 30%</h6>
+									</div>
+
+									<!-- Price -->
+									<sup class="dark-color">Rp</sup>
+									<span class="dark-color">100,000</span>
+									<p class="p-md">dari harga Rp. 130,000</p>
+
+								</div>
+
+								<!-- Plan Features  -->
+								<ul class="features">
+									<li>
+										<p class="p-md">- Hasil Keluar 4 Jam</p>
+									</li>
+									<li>
+										<p class="p-md">- Terdaftar Aplikasi Peduli Lindungi</p>
+									</li>
+									<li>
+										<p class="p-md">- Berlaku hanya 1 Hari</p>
+									</li>
+								</ul>
+
+								<!-- Pricing Plan Button -->
+								<a href="#" class="btn btn-sm btn-tra-grey tra-green-hover">Select Plan</a>
+
+							</div>
+						</div> <!-- END Antigen -->
+
+						<!-- Rapid Molecular Test -->
+						<div class="col d-flex align-items-stretch">
+							<div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+
+								<!-- Plan Price -->
+								<div class="pricing-plan">
+
+									<!-- Plan Title -->
+									<div class="pricing-plan-title">
+										<h5 class="h5-xs">Rapid Molecular Test</h5>
+										<h6 class="h6-sm bg-lightgrey">Save 30%</h6>
+									</div>
+
+									<!-- Price -->
+									<sup class="dark-color">Rp</sup>
+									<span class="dark-color">250,000</span>
+									<p class="p-md">dari harga Rp. 312,500</p>
+
+								</div>
+
+								<!-- Plan Features  -->
+								<ul class="features">
+									<li>
+										<p class="p-md">- Hasil Keluar 1x24 Jam</p>
+									</li>
+									<li>
+										<p class="p-md">- Terdaftar Aplikasi Peduli Lindungi</p>
+									</li>
+									<li>
+										<p class="p-md">- Berlaku sampai 3 Hari</p>
+									</li>
+									<li>
+										<p class="p-md">- Mendeteksi Varian Covid-19</p>
+									</li>
+								</ul>
+
+								<!-- Pricing Plan Button -->
+								<a href="#" class="btn btn-sm btn-tra-grey tra-green-hover">Select Plan</a>
+
+							</div>
+						</div> <!-- END Rapid Molecular Test -->
+
+
+						<!-- RT-PCR COVID-19 -->
+						<div class="col d-flex align-items-stretch">
+							<div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+
+								<!-- Plan Price  -->
+								<div class="pricing-plan highlight">
+
+									<!-- Plan Title -->
+									<div class="pricing-plan-title">
+										<h5 class="h5-xs">RT-PCR COVID-19</h5>
+										<h6 class="h6-sm bg-green white-color">Popular</h6>
+									</div>
+
+									<!-- Price -->
+									<sup class="dark-color">Rp. </sup>
+									<span class="dark-color">500,000</span>
+									<p class="p-md">dari harga Rp. 750.000</p>
+								</div>
+
+								<!-- Plan Features  -->
+								<ul class="features">
+									<li>
+										<p class="p-md">- Hasil Keluar 2x24 Jam</p>
+									</li>
+									<li>
+										<p class="p-md">- Terdaftar Aplikasi Peduli Lindungi</p>
+									</li>
+									<li>
+										<p class="p-md">- Berlaku sampai 5 Hari</p>
+									</li>
+									<li>
+										<p class="p-md">- Mendeteksi Varian Covid-19 dan Waktu Penularan</p>
+									</li>
+								</ul>
+
+								<!-- Pricing Plan Button -->
+								<a href="#" class="btn btn-sm btn-green tra-grey-hover">Select Plan</a>
+
+							</div>
+						</div> <!-- END RT-PCR COVID-19 -->
+
+
+					</div>
+				</div> <!-- END PRICING TABLES -->
+
+
+				<!-- PRICING NOTICE TEXT -->
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="pricing-notice text-center mb-40">
+							<p class="p-md">
+								Harga belum termasuk Pajak dan Biaya Layanan. 
+								Total keselurahan akan muncul ketika akan pembayaran.
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- PAYMENT METHODS -->
+				<div class="payment-methods pc-30">
+					<div class="row row-cols-1 row-cols-md-3">
+
+						<!-- Payment Methods -->
+						<div class="col col-lg-5">
+							<div class="pbox mb-40">
+
+								<!-- Title -->
+								<h6 class="h6-md">Accepted Payment Methods</h6>
+
+								<!-- Payment Icons -->
+								<ul class="payment-icons ico-50">
+									<li><img src="assets/images/png-icons/visa.png" alt="payment-icon" /></li>
+									<li><img src="assets/images/png-icons/am.png" alt="payment-icon" /></li>
+									<li><img src="assets/images/png-icons/discover.png" alt="payment-icon" /></li>
+									<li><img src="assets/images/png-icons/paypal.png" alt="payment-icon" /></li>
+									<li><img src="assets/images/png-icons/jcb.png" alt="payment-icon" /></li>
+									<li><img src="assets/images/png-icons/shopify.png" alt="payment-icon" /></li>
+								</ul>
+
+							</div>
+						</div>
+
+					</div>
+				</div> <!-- END PAYMENT METHODS -->
+
+			</div> <!-- End container -->
+		</section> <!-- END Section Price Test Covid -->
+
+		<!-- Vaksinasi -->
+		<section id="content-2a" class="content-2 wide-60 content-section division">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+
+
+					<!-- IMAGE BLOCK -->
+					<div class="col-md-5 col-lg-6">
+						<div class="rel img-block left-column wow fadeInRight">
+							<img class="img-fluid" src="assets/image/drivetrhu vaksin.jpg" alt="content-image">
+						</div>
+					</div>
+
+
+					<!-- TEXT BLOCK -->
+					<div class="col-md-7 col-lg-6">
+						<div class="txt-block right-column wow fadeInLeft">
+
+							<!-- Section ID -->
+							<span class="section-id txt-upcase">Vaksinasi</span>
+
+							<!-- Title -->
+							<h2 class="h2-xs">Drive-Thru Vaksinasi Massal</h2>
+
+							<!-- List -->
+							<ul class="simple-list">
+
+								<li class="list-item">
+									<p class="p-lg">
+										Dukung Program Pemerintah untuk mencegah penuluran covid-19
+										dengan melakukan Vaksinasi minimal 2 Dosis
+									</p>
+								</li>
+
+							</ul>
+
+						</div>
+					</div> <!-- END TEXT BLOCK -->
+
+
+				</div> <!-- End row -->
+			</div> <!-- End container -->
+		</section> <!-- END Vaksinasi -->
+
+		<!-- Section Aplikasi -->
+		<section id="content-3" class="content-3 wide-60 content-section division">
+			<div class="container">
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="section-title title-01 mb-70">
+
+							<!-- Title -->
+							<h2 class="h2-md">Pantau dan Reservasi</h2>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- TOP ROW -->
+				<div class="top-row pb-50">
+					<div class="row d-flex align-items-center">
+
+						<!-- TEXT BLOCK -->
+						<div class="col-md-7 col-lg-6">
+							<div class="txt-block right-column wow fadeInLeft">
+
+								<!-- TEXT BOX -->
+								<div class="txt-box mb-20">
+
+									<!-- Title -->
+									<h5 class="h5-lg">All-in-One Application</h5>
+
+									<!-- Text -->
+									<p class="p-lg">
+										Reservasikan diri anda via Online Aplikasi tanpa perlu menunggu repot-repot
+										dan membuang waktu banyak hanya urusuan administrasi.
+
+										Anda juga pantau keadaan dan suasana keluarga anda dari aplikasi smartphone anda termasuk cctv ruangan.
+									</p>
+
+								</div>
+
+								<!-- TEXT BOX -->
+								<div class="txt-box">
+
+									<!-- Title -->
+									<h5 class="h5-lg">Kelebihan via Aplikasi</h5>
+
+									<!-- List -->
+									<ul class="simple-list">
+
+										<li class="list-item">
+											<p class="p-lg">
+												Real-time analytics kondisi keluarga anda
+											</p>
+										</li>
+
+										<li class="list-item">
+											<p class="p-lg">
+												Updgrade Class Ruangan Tanpa Perlu Repot
+											</p>
+										</li>
+
+										<li class="list-item">
+											<p class="p-lg">
+												Request Pelayanan
+											</p>
+										</li>
+
+									</ul>
+
+								</div> <!-- END TEXT BOX -->
+
+							</div>
+						</div> <!-- END TEXT BLOCK -->
+						
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6">
+							<div class="img-block left-column wow fadeInRight">
+								<img class="img-fluid" src="assets/image/application.jpg" alt="content-image">
+							</div>
+						</div>
+
+					</div>
+				</div> <!-- END TOP ROW -->
+
+			</div> <!-- End container -->
+		</section> <!-- END Section Aplikasi -->
+
+		<!-- TESTIMONIALS  -->
+		<section id="reviews-1" class="bg-whitesmoke-gradient wide-100 reviews-section division">
+			<div class="container">
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="section-title title-01 mb-70">
+							<!-- Title -->
+							<h2 class="h2-md">Stories From Our Customers</h2>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- TESTIMONIALS CONTENT -->
+				<div class="row">
+					<div class="col">
+						<div class="owl-carousel owl-theme reviews-1-wrapper">
+
+							<!-- TESTIMONIAL #1 -->
+							<div class="review-1">
+								<!-- Quote Icon -->
+								<div class="review-1-ico ico-25">
+									<span class="flaticon-left-quote"></span>
+								</div>
+
+								<!-- Text -->
+								<div class="review-1-txt">
+
+									<!-- Text -->
+									<p class="p-lg">
+										Jujur bangga ternyata di RS Valve fasilitasnya lengkap banget, dokternya juga jagoan semua!!
+									</p>
+
+									<!-- Testimonial Author -->
+									<div class="author-data clearfix">
+
+										<!-- Testimonial Avatar -->
+										<div class="review-avatar">
+											<img src="assets/image/Pasien2.jpg" alt="review-avatar">
+										</div>
+
+										<!-- Testimonial Author -->
+										<div class="review-author">
+
+											<h6 class="h6-xl">Tasya Kamila</h6>
+											<p class="p-md">Public Figure</p>
+
+										</div>
+
+									</div> <!-- End Testimonial Author -->
+
+								</div> <!-- End Text -->
+
+							</div> <!-- END TESTIMONIAL #1 -->
+
+							<!-- TESTIMONIAL #2 -->
+							<div class="review-1">
+
+								<!-- Quote Icon -->
+								<div class="review-1-ico ico-25">
+									<span class="flaticon-left-quote"></span>
+								</div>
+
+								<!-- Text -->
+								<div class="review-1-txt">
+
+									<!-- Text -->
+									<p class="p-lg">
+										Aku senang dan puas sekali dengan pelayanan MCU di RS Valve. Gedungnya bagus dan fasilitasnya lengkap. 
+									</p>
+
+									<!-- Testimonial Author -->
+									<div class="author-data clearfix">
+
+										<!-- Testimonial Avatar -->
+										<div class="review-avatar">
+											<img src="assets/image/Pasien1.jpg" alt="review-avatar">
+										</div>
+
+										<!-- Testimonial Author -->
+										<div class="review-author">
+											<h6 class="h6-xl">Ekida Rehan</h6>
+											<p class="p-md">Selebgram</p>
+										</div>
+
+									</div> <!-- End Testimonial Author -->
+
+								</div> <!-- End Text -->
+
+							</div> <!-- END TESTIMONIAL #2 -->
+
+							<!-- TESTIMONIAL #3 -->
+							<div class="review-1">
+
+								<!-- Quote Icon -->
+								<div class="review-1-ico ico-25">
+									<span class="flaticon-left-quote"></span>
+								</div>
+
+								<!-- Text -->
+								<div class="review-1-txt">
+
+									<!-- Text -->
+									<p class="p-lg">
+										Kemarin nyoba di RS Valve Aku ambil paket MCU Kesehatan Wanita karena Aku sadar punya risiko beberapa penyakit pada organ-organ wanita karena berkaca dari pengalaman nenek, tante, dan ibu.
+									</p>
+
+									<!-- Testimonial Author -->
+									<div class="author-data clearfix">
+
+										<!-- Testimonial Avatar -->
+										<div class="review-avatar">
+											<img src="assets/image/Pasien3jpg.jpg" alt="review-avatar">
+										</div>
+
+										<!-- Testimonial Author -->
+										<div class="review-author">
+
+											<h6 class="h6-xl">Rachel Amanda Aurora</h6>
+											<p class="p-md">Aktris</p>
+
+										</div>
+
+									</div> <!-- End Testimonial Author -->
+
+								</div> <!-- End Text -->
+
+							</div> <!-- END TESTIMONIAL #3 -->
+
+						</div>
+					</div>
+				</div> <!-- END TESTIMONIALS CONTENT -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END TESTIMONIALS-1 -->
+
+		<!-- FAQs-2 -->
+		<section id="faqs-2" class="wide-60 faqs-section division">
+			<div class="container">
+
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-xl-8">
+						<div class="section-title title-01 mb-80">
+
+							<!-- Title -->
+							<h2 class="h2-md">Got Questions? Look Here</h2>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- FAQs-2 QUESTIONS -->
+				<div class="faqs-2-questions">
+					<div class="row row-cols-1 row-cols-lg-2">
+
+
+						<!-- QUESTIONS HOLDER -->
+						<div class="col">
+							<div class="questions-holder pr-15">
+
+
+								<!-- QUESTION #1 -->
+								<div class="question wow fadeInUp">
+
+									<!-- Question -->
+									<h5 class="h5-md">
+										Apa yang harus saya lakukan dalam keadaan gawat darurat (Emergensi)? 
+									</h5>
+
+									<!-- Answer -->
+									<p class="p-lg">
+										Bila Anda atau keluarga mengalami kondisi gawat darurat, segera cari pertolongan ke IGD RS terdekat atau IGD RS Valve. 
+										Untuk informasi kegawatdaruratan, Anda juga dapat menghubungi IGD RS Valve di nomor 0856 9116 6309. 
+									</p>
+
+								</div>
+
+							</div>
+						</div> <!-- END QUESTIONS HOLDER -->
+
+
+						<!-- QUESTIONS HOLDER -->
+						<div class="col">
+							<div class="questions-holder pl-15">
+
+								<!-- QUESTION #2 -->
+								<div class="question wow fadeInUp">
+
+									<!-- Question -->
+									<h5 class="h5-md">
+										Apa yang harus saya siapkan bila memerlukan rawat inap?
+									</h5>
+
+									<!-- Answer -->
+									<p class="p-lg">
+										Kami memahami bahwa proses rawat inap dapat menimbulkan kecemasan bagi sebagian orang. 
+										RS Valve senantiasa berkomitmen untuk memberikan pengalaman perawatan yang terbaik bagi Anda dan keluarga. 
+										Sebelum memulai proses rawat inap, terdapat beberapa proses yang perlu Anda jalani seperti: <br/>
+										1. Membuat janji temu dan konsultasi dengan dokter spesialis di poliklinik (Bisa via Aplikasi) <br/>
+										2. Mendapatkan arahan dari dokter untuk rawat inap dan menjalani tindakan atau prosedur tertentu <br/>
+										3. Melakukan booking ruangan rawat inap sesuai kebutuhan Anda ke bagian admisi IGD atau rawat jalan <br/>
+										4. Melakukan pemeriksaan swab antigen atau PCR COVID-19 sesaat sebelum masuk rawat inap <br/>
+									</p>
+
+								</div>
+
+							</div>
+						</div> <!-- END QUESTIONS HOLDER -->
+
+
+					</div> <!-- End row -->
+				</div> <!-- END FAQs-2 QUESTIONS -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END FAQs-2 -->
+
+		<!-- CALL TO ACTION-4 -->
+		<section id="cta-4" class="cta-section division">
+			<div class="cta-4-holder bg-whitesmoke">
+				<div class="container">
+					<div class="bg-white cta-4-wrapper">
+						<div class="row d-flex align-items-center">
+
+
+							<!-- CALL TO ACTION TEXT -->
+							<div class="col-lg-7 col-lg-8">
+								<div class="cta-4-txt">
+									<h4 class="h4-lg">
+										Lindungi Anda dan Keluarga 
+									</h4>
+								</div>
+							</div>
+
+
+							<!-- CALL TO ACTION BUTTON -->
+							<div class="col-lg-4">
+								<div class="text-end">
+									<div class="cta-4-btn text-center">
+										<a href="#hero-3" class="btn btn-green tra-grey-hover">Reservasi Sekarang</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div> <!-- End row -->
+				</div> <!-- End container -->
+			</div>
+		</section> <!-- END CALL TO ACTION-4 -->
+
+		<!-- FOOTER-1 -->
+		<footer id="footer-1" class="footer division">
+			<div class="container">
+
+
+				<!-- FOOTER CONTENT -->
+				<div class="row">
+
+
+					<!-- FOOTER INFO -->
+					<div class="col-lg-4">
+						<div class="footer-info mb-40">
+
+							<!-- Footer Logo -->
+							<img class="footer-logo mb-25" src="data:image/png;base64,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" alt="footer-logo">
+
+							<!-- Text -->
+							<p class="p-md">
+								Rumah Sakit Valve merupakan bagian dari ZuRan Corps 
+								untuk dapat membantu masyarakat lebih mudah dalam segala hal aspek bidang rumah sakit.
+								Mulai dari Reservasi Online, Pembayaran Online, 24 Jam Siaga, dan Transparant Informasi
+							</p>
+
+						</div>
+					</div>
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3 col-lg-2">
+						<div class="footer-links mb-40">
+
+							<!-- Title -->
+							<h6 class="h6-xl">Company</h6>
+
+							<!-- Footer Links -->
+							<ul class="foo-links text-secondary clearfix">
+								<li>
+									<p class="p-md"><a href="#">About Us</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Careers</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Press & Media</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Contact Us</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3 col-lg-2">
+						<div class="footer-links mb-40">
+
+							<!-- Title -->
+							<h6 class="h6-xl">Discover</h6>
+
+							<!-- Footer List -->
+							<ul class="foo-links text-secondary clearfix">
+								<li>
+									<p class="p-md"><a href="#">Our Blog</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Advertising</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Plans & Pricing</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Testimonials</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3 col-lg-2">
+						<div class="footer-links mb-40">
+
+							<!-- Title -->
+							<h6 class="h6-xl">Legal</h6>
+
+							<!-- Footer List -->
+							<ul class="foo-links text-secondary clearfix">
+								<li>
+									<p class="p-md"><a href="#">Terms of Use</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Privacy Policy</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Cookie Policy</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Site Map</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3 col-lg-2">
+						<div class="footer-links mb-40">
+
+							<!-- Title -->
+							<h6 class="h6-xl">Support</h6>
+
+							<!-- Footer Links -->
+							<ul class="foo-links text-secondary clearfix">
+								<li>
+									<p class="p-md"><a href="#">FAQs</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Editor Help</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Community</a></p>
+								</li>
+								<li>
+									<p class="p-md"><a href="#">Life Chatting</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+
+
+				</div> <!-- END FOOTER CONTENT -->
+
+
+				<hr>
+
+
+				<!-- BOTTOM FOOTER -->
+				<div class="bottom-footer">
+					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+
+
+						<!-- FOOTER COPYRIGHT -->
+						<div class="col">
+							<div class="footer-copyright">
+								<p>
+									&copy; 
+									<script>document.write(new Date().getFullYear());</script>
+									Valve Hospital. All Rights Reserved</p>
+							</div>
+						</div>
+
+
+						<!-- BOTTOM FOOTER LINKS -->
+						<div class="col">
+							<ul class="bottom-footer-list text-secondary text-end">
+								<li class="first-li">
+									<p><a href="https://www.facebook.com/zulkifli.raihan">Facebook</a></p>
+								</li>
+								<li>
+									<p><a href="https://twitter.com/ZuRan2907">Twitter</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.linkedin.com/in/zulkifliraihan/">LinkedIn</a></p>
+								</li>
+							</ul>
+						</div>
+
+
+					</div> <!-- End row -->
+				</div> <!-- BOTTOM FOOTER -->
+
+
+			</div>
+		</footer> <!-- END FOOTER-1 -->
+
+
+
+
+	</div> <!-- END PAGE CONTENT -->
+
+
+
+
+	<!-- EXTERNAL SCRIPTS -->
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/jquery.scrollto.js"></script>
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/quick-form.js"></script>
+	<script src="assets/js/request-form.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+	<script src="assets/js/wow.js"></script>
+
+	<!-- Custom Script -->
+	<script src="assets/js/custom.js"></script>
+
+
+</body>
+
+
+
+</html>
