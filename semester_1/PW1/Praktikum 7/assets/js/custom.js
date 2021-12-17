@@ -435,6 +435,27 @@
 			5: 'This email address looks fake or invalid. Please enter a real email address'
 		};	
 
+		/*----------------------------------------------------*/
+		/*	Get Data Corona Virus
+		/*----------------------------------------------------*/
+		$.ajax({ 
+			// url: "https://covid19.mathdro.id/api/countries/ID",
+			url: "https://apicovid19indonesia-v2.vercel.app/api/indonesia",
+			type: 'GET',
+			success: function (response) {
+				let confirmCase = response.positif.toLocaleString();
+				let recoverCase = response.sembuh.toLocaleString();
+				let deathCase = response.meninggal.toLocaleString();
+				let newCase = response.dirawat.toLocaleString();
+				
+				$("#totalRawat").html(newCase);
+				$("#totalSembuh").html("Total Sembuh : " + recoverCase);
+				$("#totalMeninggal").html("Total Meninggal : " + deathCase);
+				$("#totalConfirm").html(confirmCase);
+
+			}
+		});
+
 	});
 
 // Scroll Menu
