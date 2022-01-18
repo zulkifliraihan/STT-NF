@@ -1,4 +1,8 @@
 baris = int(input("Jumlah Bintang : "))
+
+if baris == 0:
+    baris = 12
+    
 print("." * baris, end="\n")
 x = (baris // 2) - 1
 y = 2
