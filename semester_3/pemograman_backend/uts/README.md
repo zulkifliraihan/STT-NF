@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Prepare for Run in Local/Development/Production
+- Create Database (MySQL)
+
+## How to run
+- Composer Install
+- Copy .env.example to .env OR ask other programmers to share file .env
+- Setup in file .env is :
+    - APP_NAME (Zulkifli Raihan - TI17)
+    - APP_ENV (local/development/staging/production)
+    - APP_DEBUG = TRUE (local/development) OR FALSE (staging/production)
+    - APP_URL (domain)
+    - DB_DATABASE (Name Database)
+    - DB_USERNAME (Username Credential)
+    - DB_PASSWORD (Password Credential)
+- Run "php artisan migrate --seed" (For migrate database and seeder)
+
+## In Local
+- php artisan serve
+
+## In Production
+- Nothing for Production
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
