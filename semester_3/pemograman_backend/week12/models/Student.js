@@ -5,13 +5,9 @@ class Student {
    * Method Get All Data
    */
   static all() {
-    // return Promise sebagai solusi Asynchronous
     return new Promise((resolve, reject) => {
       const sql = "SELECT * from students";
-      /**
-       * Melakukan query menggunakan method query.
-       * Menerima 2 params: query dan callback
-       */
+
       db.query(sql, (err, results) => {
         resolve(results);
       });
